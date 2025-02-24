@@ -1,6 +1,6 @@
-[Resume](https://github.com/Bumvolla/Resume/blob/main/cv.pdf)
+# [View resume](https://github.com/Bumvolla/Resume/blob/main/cv.pdf)
 
-### PDF compilation
+## PDF compilation
 
 1. Get MiKTex.
 2. Get and install the Fontin font from http://www.exljbris.com/fontin.html.
@@ -10,7 +10,7 @@
 xelatex cv.tex
 ~~~
 
-### Notes from the original template
+## Notes from the original template
 Plasmati Graduate CV
 LaTeX Template
 Version 1.0 (24/3/13)
