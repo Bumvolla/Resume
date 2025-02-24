@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{lualatex}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{8pt}{8pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Joaquim Mas Díaz}\par} % Your name
+\vspace{10pt}
+\par{\centering{\textsc{Technical artist}}\bigskip\par} % Your role
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & Spain  | 24 March 2001 \\
+\textsc{Phone:} & +34 644 35 37 26\\
+\textsc{email:} & {soramasd@gmail.com}\\
+\textsc{website:} & {\href{bumvolla.github.io}{bumvolla.github.io}}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} &  Unreal Engine Developer | Technical Artist at \href{https://www.newtonlabspace.com}{\textsc{Newton Lab Space}}, Barcelona \\
+\textsc{Aug 2023} & \footnotesize{Developed real time photorealist Unreal Engine applications for propietary hardware that runs on 8k UHD screens.}\\
+& \footnotesize{Worked on game logic, editor tools, Heads Up Display (HUD), art pipelines and shaders.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan-Jun 2023} & Unreal Engine Developer | 3D Environment Artist at \href{https://mtkspace.com/home/}{\textsc{MTK Space}}, Barcelona \emph{}\\
+& \footnotesize{Implemented a virtual production complete pipeline using Uneral Engine 5.1 to Axximetry Dual Engine.}\\
+& \footnotesize{Created 3D environments, shaders and VFX and wrote a tool to lauch Unreal Events throught a \textit{Stream Deck}}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan-Dec 2020} & 3D Environment Artist at \textsc{Reus City Hall}, Reus \emph{}\\
+& \footnotesize{Worked in environments for a handpainted 3D game. Responsable of textuing , 3D Modeling and In-engine post process materials}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{June} 2023 & Master in 3D Art for Videogames in \href{https://www.fxbarcelonafilmschool.com/}{\textbf{FX Animation}}, Barcelona\\
+& \footnotesize{- Environment and character art}\\
+& \footnotesize{- Texturing, procedural materials, smart materials}\\
+& \footnotesize{- Shaders and particles}\\
+& \emph{Final project: Technical and material artist for a third person shooter game.}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent\\
+
+\textsc{Spanish:} & Mothertongue\\
+
+\textsc{Catalan:} & Mothertongue\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & \textsc{Qt}, \textsc{C\#}, \textsc{Unity}, \textsc{Godot}, \textsc{Material Maker}, \textsc{Pixel composer}\\
+
+Dev Knowledge: & \textsc{Unreal Engine}, \textsc{C++}, \textsc{HLSL}, \textsc{Git}\\
+3D Art Knowledge: & \textsc{Substance Painter}, \textsc{Substance Designer}, \textsc{Blender}, \textsc{3DSMax}, \textsc{Photoshop}, \textsc{ZBrush}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Technology, Open-Source, Programming, Tooling, Math\\
+Art, Handcrafting, Domotization, Videogames, TTRPG
+
+\end{document}
